@@ -1,0 +1,78 @@
+@@font-face {
+  font-family: 'chida';
+  src: url('OdibeeSans-Regular.ttf');
+}
+
+
+@@font-face {
+  font-family: 'roboto';
+  src: url('Roboto-Bold.ttf');
+}
+
+@@font-face {
+  font-family: 'tangerine';
+  src: url('Tangerine-Bold.ttf');
+}
+
+body{
+  background-color: #11b67e;
+}
+
+
+.mdl-navigation > a{
+  font-family: 'chida';
+}
+
+
+/* card */
+.demo-card-wide.mdl-card {
+  width: 512px;
+  height: 600px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 396px;
+  background: url('yo.jpg') center / cover;
+}
+
+.demo-card-wide > .mdl-card__supporting-text > p{
+  color: #000;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'roboto';
+}
+
+#nombre{
+  font-size: 20px;
+  font-family: 'tangerine';
+
+}
+
+#imagen_drawer{
+  height: 80px;
+  width: 80px;
+}
+
+#titulo{
+  font-size: 20px;
+  font-family: 'chida';
+}
+
+/* drawer */
+.demo-layout-transparent {
+  background: url('../assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+
+.card-container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 10px;
+  padding: 20px;
+}
